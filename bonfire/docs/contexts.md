@@ -56,13 +56,13 @@ You can create any number of contexts to fit your application’s specific needs
 <a name="array"></a>
 ###  Update the Application Config Array
 
-To create a new context that will be displayed in the admin area, you only need to add the name of the context to the <td>contexts</td> array in the <td>config/application.php</td> file. The context name must not contain any spaces. If more than one word is needed, separate the words with an underscore.
+To create a new context that will be displayed in the admin area, you only need to add the name of the context to the `contexts` array in the `config/application.php` file. The context name must not contain any spaces. If more than one word is needed, separate the words with an underscore.
 
 
 <a name="name"></a>
 ### Localizing the Context Name
 
-To make your context's name localized, you simply need to add a new entry in the <td>language/english/application_lang.php</td> file. The name should be preceded by <td>bf_context_</td>.
+To make your context's name localized, you simply need to add a new entry in the `language/english/application_lang.php` file. The name should be preceded by `bf_context_`.
 
 
     $lang['bf_context_new'] = 'New Context';
